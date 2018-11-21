@@ -78,8 +78,8 @@ body {
 
 	<div class="wrapper">
 		<div class="container">
-			<form class="example" action="/search" method="get">
-				<input type="text" class="input"
+			<form class="example" action="searchdata" method="get">
+				<input type="text" class="input" name="search"
 					placeholder="What are you looking for?" /> <input type="submit"
 					value="search" class="close-btn" />
 			</form>
